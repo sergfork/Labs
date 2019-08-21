@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UI">
+    <test name="Search in Google">
+
+
+        <parameter name="searchedWord" value="Gemicle"/>
+        <parameter name="findOnPages" value="10"/>
+        <parameter name="baseURL" value="https://google.com/ncr"/>
+
+        <classes>
+            <class name="com.labs.GoogleTests"/>
+        </classes>
+    </test>
+</suite>
